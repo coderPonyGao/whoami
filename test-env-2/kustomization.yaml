@@ -13,7 +13,7 @@ patches:
        path: /spec/replicas
        value: 3
      - op: add
-       path: /spec/template/spec/containers/0/env/-
+       path: "/spec/template/spec/containers/0/env/-"
        value: 
          name: MY_NODE_NAME
          value: test-env-2
