@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: whoami
-          image: registry.ap-southeast-1.aliyuncs.com/gx-lib/web
+          image: registry.ap-southeast-1.aliyuncs.com/gx-lib/web:0.5.0
           imagePullPolicy: IfNotPresent
       restartPolicy: Always
